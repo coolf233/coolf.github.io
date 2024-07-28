@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>阿良+</title>
+    <link href="https://coolf233.github.io/feed.xml" rel="self" />
+    <link href="https://coolf233.github.io" />
+    <updated>2024-07-28T20:54:24+08:00</updated>
+    <author>
+        <name>Aliang</name>
+    </author>
+    <id>https://coolf233.github.io</id>
+
+    <entry>
+        <title>第一篇</title>
+        <author>
+            <name>Aliang</name>
+        </author>
+        <link href="https://coolf233.github.io/1223/"/>
+        <id>https://coolf233.github.io/1223/</id>
+
+        <updated>2024-07-28T12:41:10+08:00</updated>
+            <summary>
+                <![CDATA[
+                    尝试使用publii构建静态博客
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>尝试使用publii构建静态博客</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
