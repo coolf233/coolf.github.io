@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>阿良+</title>
-    <link href="https://coolf233.github.io/feed.xml" rel="self" />
-    <link href="https://coolf233.github.io" />
-    <updated>2024-07-28T20:54:24+08:00</updated>
+    <link href="http://aliang.plus/feed.xml" rel="self" />
+    <link href="http://aliang.plus" />
+    <updated>2024-07-30T23:38:17+08:00</updated>
     <author>
         <name>Aliang</name>
     </author>
-    <id>https://coolf233.github.io</id>
+    <id>http://aliang.plus</id>
 
+    <entry>
+        <title>第二篇</title>
+        <author>
+            <name>Aliang</name>
+        </author>
+        <link href="http://aliang.plus/di-er-pian/"/>
+        <id>http://aliang.plus/di-er-pian/</id>
+
+        <updated>2024-07-30T23:38:17+08:00</updated>
+            <summary>
+                <![CDATA[
+                    第二篇吧
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>第二篇吧</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>第一篇</title>
         <author>
             <name>Aliang</name>
         </author>
-        <link href="https://coolf233.github.io/1223/"/>
-        <id>https://coolf233.github.io/1223/</id>
+        <link href="http://aliang.plus/1223/"/>
+        <id>http://aliang.plus/1223/</id>
 
         <updated>2024-07-28T12:41:10+08:00</updated>
             <summary>

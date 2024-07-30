@@ -2,16 +2,30 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "阿良+",
     "description": "",
-    "home_page_url": "https://coolf233.github.io",
-    "feed_url": "https://coolf233.github.io/feed.json",
+    "home_page_url": "http://aliang.plus",
+    "feed_url": "http://aliang.plus/feed.json",
     "user_comment": "",
     "author": {
         "name": "Aliang"
     },
     "items": [
         {
-            "id": "https://coolf233.github.io/1223/",
-            "url": "https://coolf233.github.io/1223/",
+            "id": "http://aliang.plus/di-er-pian/",
+            "url": "http://aliang.plus/di-er-pian/",
+            "title": "第二篇",
+            "summary": "第二篇吧",
+            "content_html": "<p>第二篇吧</p>",
+            "author": {
+                "name": "Aliang"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-07-30T23:38:17+08:00",
+            "date_modified": "2024-07-30T23:38:17+08:00"
+        },
+        {
+            "id": "http://aliang.plus/1223/",
+            "url": "http://aliang.plus/1223/",
             "title": "第一篇",
             "summary": "尝试使用publii构建静态博客",
             "content_html": "<p>尝试使用publii构建静态博客</p>",
