@@ -1,20 +1,28 @@
-// Off canvas menu 
-let container = document.querySelector('.js-container')
-let toggleButton = document.querySelector('.js-menu-toggle')
+// Menu
+document.addEventListener('DOMContentLoaded', function() {
+	var toggleButton = document.querySelector('.navbar__toggle');
+	var menu = document.querySelector('.navbar__menu');
 
-toggleButton.addEventListener('click', (e) => {
-	e.preventDefault();
-	container.classList.toggle('is-menu');
-	document.body.classList.toggle("no-scroll");
-	toggleButton.classList.toggle('is-active');
+	toggleButton.addEventListener('click', function() {
+		 // Check if the menu has the class is-active
+		 var isMenuActive = menu.classList.contains('is-active');
 
-	if (toggleButton.getAttribute("aria-expanded") == "false") {
-		toggleButton.setAttribute("aria-expanded", "true");
-	} else {
-		toggleButton.setAttribute("aria-expanded", "false");
-	}
+		 if (isMenuActive) {
+			  // If the menu is active, hide it
+			  menu.classList.remove('is-active');
+			  menu.classList.add('is-hidden');
+			  toggleButton.classList.remove('is-active'); // Remove the active class from the button
+		 } else {
+			  // If the menu is hidden, show it
+			  menu.classList.add('is-active');
+			  menu.classList.remove('is-hidden');
+			  toggleButton.classList.add('is-active'); // Add the active class to the button
+		 }
+
+		 // Update the aria-expanded attribute
+		 toggleButton.setAttribute('aria-expanded', !isMenuActive);
+	});
 });
-
 
 // Share buttons pop-up
 (function () {
@@ -115,3 +123,4 @@ toggleButton.addEventListener('click', (e) => {
 		}
 	}
 })();
+
